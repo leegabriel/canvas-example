@@ -2327,4 +2327,6 @@ bgImage.onload = function () {
     "poison", 260, 420, 1000, 9001);
   drawStatusPanel(fgContext, CANVAS_WIDTH - 150 - 10, CANVAS_HEIGHT - textBoxHeight - 50, false, currentPokeName, "female", 5, 
     "", 15, 100, 1000, 9001);
+
+  document.getElementById('battle').innerHTML = '<img class="animated zoomIn enemyPoke" draggable="false" style="position: absolute; bottom: 200px; right: 90px; zoom: 80%;" src="http://www.pkparaiso.com/imagenes/xy/sprites/animados/mudkip.gif"><img class="animated zoomIn myPoke" draggable="false" style="position: absolute; bottom: 20px; left: 35px; zoom: 160%;" src="http://www.pkparaiso.com/imagenes/xy/sprites/animados-espalda/pikachu.gif">';
 };
